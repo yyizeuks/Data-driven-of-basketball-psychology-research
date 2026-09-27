@@ -1,0 +1,162 @@
+{
+ "nmf": {
+  "jac_mean": 0.207,
+  "jac_per_ref": {
+   "T1": 0.38,
+   "T2": 0.29,
+   "T3": 0.08,
+   "T4": 0.05,
+   "T5": 0.11,
+   "T6": 0.38,
+   "T7": 0.11,
+   "T8": 0.25
+  },
+  "sig4_sign": "2/4",
+  "robust2_sign": "1/2",
+  "dominant_agree": 0.401,
+  "nmf_top10": {
+   "T1->nmf1": [
+    "action",
+    "movement",
+    "accuracy",
+    "decision",
+    "throw",
+    "video",
+    "network",
+    "information",
+    "motor",
+    "recognition"
+   ],
+   "T2->nmf6": [
+    "exercise",
+    "training",
+    "stress",
+    "control",
+    "activity",
+    "session",
+    "recovery",
+    "period",
+    "load",
+    "health"
+   ],
+   "T3->nmf5": [
+    "anxiety",
+    "state_anxiety",
+    "self-confidence",
+    "throw",
+    "pressure",
+    "state",
+    "imagery",
+    "trait_anxiety",
+    "toughness",
+    "confidence"
+   ],
+   "T4->nmf7": [
+    "motivation",
+    "climate",
+    "competence",
+    "goal",
+    "satisfaction",
+    "need",
+    "goal_orientation",
+    "regulation",
+    "achievement",
+    "perception_climate"
+   ],
+   "T5->nmf8": [
+    "concussion",
+    "symptom",
+    "woman",
+    "baseline",
+    "risk",
+    "brain",
+    "history",
+    "contact",
+    "sex",
+    "ice"
+   ],
+   "T6->nmf4": [
+    "coach",
+    "leadership",
+    "behavior",
+    "leader",
+    "cohesion",
+    "development",
+    "experience",
+    "woman",
+    "coaching",
+    "perception"
+   ],
+   "T7->nmf2": [
+    "injury",
+    "risk",
+    "incidence",
+    "knee",
+    "participation",
+    "patient",
+    "school",
+    "ankle",
+    "treatment",
+    "stress"
+   ],
+   "T8->nmf3": [
+    "student",
+    "education",
+    "school",
+    "skill",
+    "activity",
+    "teacher",
+    "class",
+    "university",
+    "learning",
+    "program"
+   ]
+  },
+  "nmf_slopes_matched": {
+   "T1": 2.29,
+   "T2": 2.77,
+   "T3": -2.54,
+   "T4": -1.53,
+   "T5": -0.9,
+   "T6": 0.39,
+   "T7": -0.88,
+   "T8": 0.4
+  }
+ },
+ "strict": {
+  "n_docs": 1744,
+  "removed": 614,
+  "jac_mean": 0.139,
+  "jac_per_ref": {
+   "T1": 0.25,
+   "T2": 0.08,
+   "T3": 0.08,
+   "T4": 0.21,
+   "T5": 0.08,
+   "T6": 0.08,
+   "T7": 0.11,
+   "T8": 0.21
+  },
+  "sig4_sign": "4/4",
+  "robust2_sign": "2/2"
+ },
+ "openalex": {
+  "added_docs": 1258,
+  "total": 3616,
+  "jac_mean": 0.328,
+  "jac_per_ref": {
+   "T1": 0.29,
+   "T2": 0.33,
+   "T3": 0.25,
+   "T4": 0.48,
+   "T5": 0.25,
+   "T6": 0.21,
+   "T7": 0.43,
+   "T8": 0.38
+  },
+  "sig4_sign_expanded": "4/4",
+  "robust2_sign_expanded": "2/2",
+  "sig4_sign_on_original_docs": "4/4",
+  "avg_tokens_oa": 88.9
+ }
+}

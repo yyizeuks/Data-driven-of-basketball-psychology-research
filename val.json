@@ -1,0 +1,385 @@
+{
+ "seeds": [
+  {
+   "seed": 7,
+   "jac20": [
+    0.333,
+    0.111,
+    0.053,
+    0.25,
+    0.053,
+    0.379,
+    0.143,
+    0.111
+   ],
+   "jac20_mean": 0.179,
+   "doc_agree": 0.331,
+   "slopes": [
+    1.86,
+    -0.67,
+    -0.29,
+    0.7,
+    0.58,
+    -1.16,
+    0.14,
+    -1.16
+   ],
+   "sign": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "r": 0.602
+  },
+  {
+   "seed": 21,
+   "jac20": [
+    0.212,
+    0.29,
+    0.176,
+    0.176,
+    0.111,
+    0.429,
+    0.081,
+    0.25
+   ],
+   "jac20_mean": 0.216,
+   "doc_agree": 0.381,
+   "slopes": [
+    1.81,
+    0.32,
+    -0.11,
+    -0.28,
+    -1.11,
+    0.16,
+    -0.62,
+    -0.18
+   ],
+   "sign": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "r": 0.653
+  },
+  {
+   "seed": 77,
+   "jac20": [
+    0.143,
+    0.429,
+    0.212,
+    0.212,
+    0.081,
+    0.29,
+    0.081,
+    0.212
+   ],
+   "jac20_mean": 0.208,
+   "doc_agree": 0.331,
+   "slopes": [
+    -0.33,
+    0.68,
+    -1.27,
+    -1.02,
+    0.62,
+    -0.36,
+    1.52,
+    0.16
+   ],
+   "sign": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "r": 0.287
+  },
+  {
+   "seed": 123,
+   "jac20": [
+    0.111,
+    0.25,
+    0.081,
+    0.026,
+    0.111,
+    0.212,
+    0.026,
+    0.212
+   ],
+   "jac20_mean": 0.129,
+   "doc_agree": 0.256,
+   "slopes": [
+    0.66,
+    1.02,
+    -1.79,
+    -0.1,
+    -0.34,
+    -0.15,
+    0.79,
+    -0.1
+   ],
+   "sign": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "r": 0.625
+  },
+  {
+   "seed": 2024,
+   "jac20": [
+    0.333,
+    0.25,
+    0.0,
+    0.053,
+    0.081,
+    0.333,
+    0.0,
+    0.212
+   ],
+   "jac20_mean": 0.158,
+   "doc_agree": 0.369,
+   "slopes": [
+    0.97,
+    1.42,
+    -0.29,
+    0.51,
+    -1.21,
+    0.41,
+    -0.79,
+    -1.02
+   ],
+   "sign": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "r": 0.49
+  }
+ ],
+ "split": [
+  {
+   "rep": 0,
+   "jac20": [
+    0.143,
+    0.143,
+    0.212,
+    0.081,
+    0.081,
+    0.25,
+    0.026,
+    0.111
+   ],
+   "jac20_mean": 0.131
+  },
+  {
+   "rep": 1,
+   "jac20": [
+    0.25,
+    0.026,
+    0.212,
+    0.111,
+    0.053,
+    0.25,
+    0.053,
+    0.026
+   ],
+   "jac20_mean": 0.122
+  },
+  {
+   "rep": 2,
+   "jac20": [
+    0.176,
+    0.143,
+    0.212,
+    0.111,
+    0.081,
+    0.333,
+    0.0,
+    0.143
+   ],
+   "jac20_mean": 0.15
+  },
+  {
+   "rep": 3,
+   "jac20": [
+    0.429,
+    0.25,
+    0.081,
+    0.081,
+    0.053,
+    0.25,
+    0.053,
+    0.29
+   ],
+   "jac20_mean": 0.186
+  },
+  {
+   "rep": 4,
+   "jac20": [
+    0.25,
+    0.081,
+    0.053,
+    0.081,
+    0.081,
+    0.29,
+    0.176,
+    0.026
+   ],
+   "jac20_mean": 0.13
+  }
+ ],
+ "criterion": {
+  "n": 1178,
+  "chi2": 190.1,
+  "dof": 56,
+  "p": 1.6953633761771603e-16,
+  "V": 0.152,
+  "enrichments": {
+   "T1->Neurosciences": [
+    10.0,
+    5.6,
+    489
+   ],
+   "T2->Other": [
+    22.5,
+    11.3,
+    102
+   ],
+   "T2->Sport Sciences": [
+    25.5,
+    11.3,
+    102
+   ],
+   "T8->Education": [
+    22.1,
+    5.4,
+    122
+   ]
+  },
+  "table": {
+   "0": {
+    "Business": 1,
+    "Education": 19,
+    "Neurosciences": 49,
+    "Other": 53,
+    "Physiology": 10,
+    "Psychology": 303,
+    "Public Health": 0,
+    "Rehabilitation": 6,
+    "Sport Sciences": 48
+   },
+   "1": {
+    "Business": 0,
+    "Education": 1,
+    "Neurosciences": 0,
+    "Other": 23,
+    "Physiology": 3,
+    "Psychology": 48,
+    "Public Health": 0,
+    "Rehabilitation": 1,
+    "Sport Sciences": 26
+   },
+   "2": {
+    "Business": 0,
+    "Education": 2,
+    "Neurosciences": 6,
+    "Other": 8,
+    "Physiology": 0,
+    "Psychology": 75,
+    "Public Health": 0,
+    "Rehabilitation": 2,
+    "Sport Sciences": 6
+   },
+   "3": {
+    "Business": 0,
+    "Education": 2,
+    "Neurosciences": 3,
+    "Other": 15,
+    "Physiology": 1,
+    "Psychology": 66,
+    "Public Health": 0,
+    "Rehabilitation": 2,
+    "Sport Sciences": 16
+   },
+   "4": {
+    "Business": 0,
+    "Education": 1,
+    "Neurosciences": 2,
+    "Other": 2,
+    "Physiology": 1,
+    "Psychology": 17,
+    "Public Health": 0,
+    "Rehabilitation": 0,
+    "Sport Sciences": 4
+   },
+   "5": {
+    "Business": 1,
+    "Education": 12,
+    "Neurosciences": 3,
+    "Other": 24,
+    "Physiology": 1,
+    "Psychology": 150,
+    "Public Health": 0,
+    "Rehabilitation": 1,
+    "Sport Sciences": 16
+   },
+   "6": {
+    "Business": 0,
+    "Education": 0,
+    "Neurosciences": 2,
+    "Other": 4,
+    "Physiology": 1,
+    "Psychology": 18,
+    "Public Health": 0,
+    "Rehabilitation": 0,
+    "Sport Sciences": 1
+   },
+   "7": {
+    "Business": 0,
+    "Education": 27,
+    "Neurosciences": 1,
+    "Other": 4,
+    "Physiology": 1,
+    "Psychology": 70,
+    "Public Health": 1,
+    "Rehabilitation": 2,
+    "Sport Sciences": 16
+   }
+  }
+ },
+ "ref_slopes": [
+  1.56,
+  0.24,
+  -0.75,
+  -0.52,
+  -0.13,
+  0.18,
+  0.47,
+  -1.04
+ ]
+}

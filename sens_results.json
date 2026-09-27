@@ -1,0 +1,421 @@
+{
+ "k6": {
+  "k": 6,
+  "c_v": 0.3977,
+  "matched": 6,
+  "jac_mean": 0.21,
+  "jac_per_ref": {
+   "T1": 0.21,
+   "T2": 0.21,
+   "T3": 0.18,
+   "T4": 0.21,
+   "T5": 0.11,
+   "T6": 0.33
+  },
+  "sig_trend_sign_agree": "2/2",
+  "core_in_one_cluster": false,
+  "core_matched": 3,
+  "absorbed": {
+   "T7": "k6-topic5 (JS=0.721)",
+   "T8": "k6-topic1 (JS=0.639)"
+  },
+  "extra_topics": {},
+  "top8": {
+   "topic1": [
+    "activity",
+    "student",
+    "skill",
+    "attention",
+    "practice",
+    "school",
+    "system",
+    "education"
+   ],
+   "topic2": [
+    "training",
+    "exercise",
+    "control",
+    "body",
+    "session",
+    "function",
+    "period",
+    "child"
+   ],
+   "topic3": [
+    "action",
+    "accuracy",
+    "information",
+    "decision",
+    "point",
+    "ball",
+    "speed",
+    "percentage"
+   ],
+   "topic4": [
+    "coach",
+    "motivation",
+    "perception",
+    "behavior",
+    "experience",
+    "goal",
+    "leadership",
+    "people"
+   ],
+   "topic5": [
+    "injury",
+    "stress",
+    "risk",
+    "concussion",
+    "health",
+    "strength",
+    "recovery",
+    "concentration"
+   ],
+   "topic6": [
+    "woman",
+    "anxiety",
+    "position",
+    "quality",
+    "youth",
+    "participation",
+    "power",
+    "evaluation"
+   ]
+  }
+ },
+ "k7": {
+  "k": 7,
+  "c_v": 0.3728,
+  "matched": 7,
+  "jac_mean": 0.255,
+  "jac_per_ref": {
+   "T1": 0.29,
+   "T2": 0.08,
+   "T3": 0.33,
+   "T4": 0.25,
+   "T5": 0.29,
+   "T6": 0.43,
+   "T7": 0.11
+  },
+  "sig_trend_sign_agree": "3/3",
+  "core_in_one_cluster": true,
+  "core_matched": 3,
+  "absorbed": {
+   "T8": "k7-topic1 (JS=0.640)"
+  },
+  "extra_topics": {},
+  "top8": {
+   "topic1": [
+    "activity",
+    "student",
+    "exercise",
+    "system",
+    "education",
+    "skill",
+    "strategy",
+    "researcher"
+   ],
+   "topic2": [
+    "control",
+    "motor",
+    "throw",
+    "practice",
+    "treatment",
+    "pressure",
+    "recognition",
+    "people"
+   ],
+   "topic3": [
+    "training",
+    "strength",
+    "period",
+    "body",
+    "session",
+    "recovery",
+    "fitness",
+    "power"
+   ],
+   "topic4": [
+    "injury",
+    "motivation",
+    "risk",
+    "behavior",
+    "case",
+    "population",
+    "review",
+    "management"
+   ],
+   "topic5": [
+    "stress",
+    "anxiety",
+    "concussion",
+    "concentration",
+    "symptom",
+    "child",
+    "woman",
+    "pain"
+   ],
+   "topic6": [
+    "coach",
+    "development",
+    "woman",
+    "experience",
+    "health",
+    "perception",
+    "program",
+    "skill"
+   ],
+   "topic7": [
+    "movement",
+    "action",
+    "patient",
+    "attention",
+    "information",
+    "decision",
+    "point",
+    "ball"
+   ]
+  }
+ },
+ "k9": {
+  "k": 9,
+  "c_v": 0.367,
+  "matched": 8,
+  "jac_mean": 0.135,
+  "jac_per_ref": {
+   "T1": 0.14,
+   "T2": 0.03,
+   "T3": 0.05,
+   "T4": 0.05,
+   "T5": 0.08,
+   "T6": 0.25,
+   "T7": 0.14,
+   "T8": 0.33
+  },
+  "sig_trend_sign_agree": "4/4",
+  "core_in_one_cluster": true,
+  "core_matched": 4,
+  "absorbed": {},
+  "extra_topics": {
+   "k9-topic6": "nearest ref T5 (JS=0.736)"
+  },
+  "top8": {
+   "topic1": [
+    "training",
+    "control",
+    "skill",
+    "system",
+    "practice",
+    "attention",
+    "position",
+    "session"
+   ],
+   "topic2": [
+    "motivation",
+    "goal",
+    "support",
+    "adolescent",
+    "efficacy",
+    "theory",
+    "self-efficacy",
+    "orientation"
+   ],
+   "topic3": [
+    "injury",
+    "exercise",
+    "stress",
+    "concussion",
+    "strength",
+    "recovery",
+    "concentration",
+    "symptom"
+   ],
+   "topic4": [
+    "coach",
+    "behavior",
+    "leadership",
+    "review",
+    "wheelchair",
+    "medium",
+    "image",
+    "disability"
+   ],
+   "topic5": [
+    "movement",
+    "motor",
+    "accuracy",
+    "reaction",
+    "recognition",
+    "trial",
+    "knee",
+    "size"
+   ],
+   "topic6": [
+    "anxiety",
+    "throw",
+    "pressure",
+    "confidence",
+    "agility",
+    "toughness",
+    "nba",
+    "defense"
+   ],
+   "topic7": [
+    "action",
+    "patient",
+    "decision",
+    "point",
+    "ball",
+    "information",
+    "video",
+    "shot"
+   ],
+   "topic8": [
+    "student",
+    "education",
+    "university",
+    "skill",
+    "climate",
+    "competence",
+    "college",
+    "style"
+   ],
+   "topic9": [
+    "activity",
+    "risk",
+    "program",
+    "woman",
+    "school",
+    "health",
+    "perception",
+    "experience"
+   ]
+  }
+ },
+ "k10": {
+  "k": 10,
+  "c_v": 0.3664,
+  "matched": 8,
+  "jac_mean": 0.169,
+  "jac_per_ref": {
+   "T1": 0.11,
+   "T2": 0.11,
+   "T3": 0.25,
+   "T4": 0.08,
+   "T5": 0.08,
+   "T6": 0.29,
+   "T7": 0.18,
+   "T8": 0.25
+  },
+  "sig_trend_sign_agree": "4/4",
+  "core_in_one_cluster": false,
+  "core_matched": 4,
+  "absorbed": {},
+  "extra_topics": {
+   "k10-topic4": "nearest ref T4 (JS=0.679)",
+   "k10-topic6": "nearest ref T6 (JS=0.700)"
+  },
+  "top8": {
+   "topic1": [
+    "activity",
+    "system",
+    "impact",
+    "function",
+    "speed",
+    "pattern",
+    "demand",
+    "problem"
+   ],
+   "topic2": [
+    "risk",
+    "concussion",
+    "health",
+    "stress",
+    "treatment",
+    "status",
+    "muscle",
+    "review"
+   ],
+   "topic3": [
+    "training",
+    "exercise",
+    "control",
+    "anxiety",
+    "strength",
+    "body",
+    "period",
+    "session"
+   ],
+   "topic4": [
+    "coach",
+    "recovery",
+    "leadership",
+    "gender",
+    "wheelchair",
+    "member",
+    "disability",
+    "satisfaction"
+   ],
+   "topic5": [
+    "movement",
+    "action",
+    "accuracy",
+    "attention",
+    "motor",
+    "ball",
+    "reaction",
+    "recognition"
+   ],
+   "topic6": [
+    "school",
+    "percentage",
+    "incidence",
+    "division",
+    "knee",
+    "collegiate",
+    "baseline",
+    "nba"
+   ],
+   "topic7": [
+    "patient",
+    "point",
+    "throw",
+    "pressure",
+    "video",
+    "play",
+    "power",
+    "shot"
+   ],
+   "topic8": [
+    "student",
+    "woman",
+    "education",
+    "position",
+    "university",
+    "symptom",
+    "college",
+    "activity"
+   ],
+   "topic9": [
+    "skill",
+    "practice",
+    "program",
+    "development",
+    "experience",
+    "strategy",
+    "decision",
+    "youth"
+   ],
+   "topic10": [
+    "injury",
+    "motivation",
+    "participation",
+    "case",
+    "adolescent",
+    "network",
+    "efficacy",
+    "competence"
+   ]
+  }
+ }
+}

@@ -1,0 +1,37 @@
+# Construct-anchored psychological relevance filter: one regex per line (Python re, applied to lower-cased title+abstract)
+psycholog\w*
+anxiet\w*
+motivat\w*
+cognit\w*
+\bmental\b
+emotion\w*
+self[- ]efficacy
+\battention\w*
+perceptual
+\bperception\b
+\bmood\b
+\bcoping\b
+\barousal\b
+decision[- ]making
+\bdecisions?\b
+attitudes?\b
+personalit\w*
+\bimagery\b
+self[- ]talk
+resilien\w*
+burnout
+well[- ]?being
+leadership
+\bcohesion\b
+\bexpertise\b
+\bidentity\b
+\bengagement\b
+\bsatisfaction\b
+motor learning
+\bstress(?!\s+fractur)\w*
+\bconfidence(?!\s+interval)\b
+mental fatigue
+choking
+\bfear\b
+depress\w*
+\bmindfulness\b

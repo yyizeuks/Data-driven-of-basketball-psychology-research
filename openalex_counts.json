@@ -1,0 +1,12 @@
+{
+ "openalex_raw": 3080,
+ "with_abstract": 2822,
+ "year_1991_2024": 2142,
+ "english": 2109,
+ "basketball": 2087,
+ "refined_psych": 2084,
+ "dedup": 1984,
+ "overlap_with_corpus": 339,
+ "openalex_unique": 1645,
+ "corpus_covered_pct": 14.4
+}

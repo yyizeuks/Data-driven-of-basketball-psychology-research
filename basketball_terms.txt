@@ -1,0 +1,12 @@
+basketball
+wheelchair basketball
+ nba
+ wnba
+ fiba
+euroleague
+free throw
+free-throw
+jump shot
+jump-shot
+three-point
+3-point

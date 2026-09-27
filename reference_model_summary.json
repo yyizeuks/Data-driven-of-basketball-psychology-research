@@ -1,0 +1,12 @@
+{
+ "n_docs": 2358,
+ "vocab": 1342,
+ "c_v_final": 0.3819,
+ "k": 8,
+ "seed": 42,
+ "passes": 25,
+ "iterations": 600,
+ "alpha": "auto",
+ "eta": "auto",
+ "chunksize": 200
+}
