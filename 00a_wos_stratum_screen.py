@@ -6,8 +6,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag, word_tokenize
 
 # ---------- Load & combine ----------
-df1 = pd.read_excel('raw/Source_Data_2.xlsx', sheet_name='savedrecs')
-df2 = pd.read_excel('raw/Source_Data_2.xlsx', sheet_name='savedrecs (2)')
+df1 = pd.read_excel('Source_Data_2.xlsx', sheet_name='savedrecs')
+df2 = pd.read_excel('Source_Data_2.xlsx', sheet_name='savedrecs (2)')
 df = pd.concat([df1, df2], ignore_index=True)
 df = df[['Authors','Article Title','Source Title','Abstract','Publication Year','Research Areas']].copy()
 df.columns = ['authors','title','source','abstract','year','research_areas']

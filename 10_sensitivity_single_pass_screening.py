@@ -3,8 +3,8 @@ import pandas as pd, re, json, pickle, numpy as np, sys
 from nlp_defs import get_nouns
 from gensim.models import Phrases
 from gensim.corpora import Dictionary
-WOS=sys.argv[1] if len(sys.argv)>1 else 'raw/Source_Data_2.xlsx'
-UP=sys.argv[2] if len(sys.argv)>2 else 'raw/basketball_psychology_papers.xlsx'
+WOS=sys.argv[1] if len(sys.argv)>1 else 'Source_Data_2.xlsx'
+UP=sys.argv[2] if len(sys.argv)>2 else 'basketball_psychology_papers.xlsx'
 C={}
 w=pd.concat([pd.read_excel(WOS,sheet_name='savedrecs'),pd.read_excel(WOS,sheet_name='savedrecs (2)')],ignore_index=True); C['wos_identified']=len(w)
 w=w[['Article Title','Abstract','Publication Year','Research Areas']].copy(); w.columns=['title','abstract','year','research_areas']

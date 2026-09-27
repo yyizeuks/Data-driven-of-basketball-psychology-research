@@ -4,7 +4,7 @@ from nlp_defs import get_nouns, stop
 from gensim.models import Phrases
 from gensim.corpora import Dictionary
 import sys
-UP=sys.argv[1] if len(sys.argv)>1 else 'raw/basketball_psychology_papers.xlsx'
+UP=sys.argv[1] if len(sys.argv)>1 else 'basketball_psychology_papers.xlsx'
 wos=pd.read_pickle('corpus_final.pkl')[['title','year','abstract','research_areas']].copy(); wos['db_source']='wos'
 up=pd.read_excel(UP,sheet_name='basketball_psychology'); up.columns=['title','year','abstract']; up['db_source']='pm_cr'; up['research_areas']=None
 up=up.dropna(subset=['title','abstract']); up['abstract']=up['abstract'].astype(str); up['title']=up['title'].astype(str)

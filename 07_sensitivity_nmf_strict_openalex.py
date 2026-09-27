@@ -52,7 +52,7 @@ if 'strict' not in R:
     save(); print('STRICT:',R['strict'])
 # ---- OpenAlex expansion sensitivity (fixed vocabulary) ----
 if 'openalex' not in R:
-    oa=pd.read_pickle('oa_unique_articles.pkl')  # produced by 07a from raw/openalex_export.csv; od=[get_nouns(a) for a in oa['abstract'].tolist()]
+    oa=pd.read_pickle('oa_unique_articles.pkl')  # produced by 07a from openalex_export.csv; od=[get_nouns(a) for a in oa['abstract'].tolist()]
     bigram=Phrases(docs,min_count=15,threshold=12); od=[bigram[d] for d in od]
     ob=[dic.doc2bow(d) for d in od]; ok=[i for i,b in enumerate(ob) if len(b)>=3]
     cps=corpus+[ob[i] for i in ok]; yv=np.concatenate([yrs,oa['year'].values[ok]])

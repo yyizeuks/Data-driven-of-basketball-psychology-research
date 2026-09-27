@@ -1,7 +1,7 @@
-"""Screen an OpenAlex export (raw/openalex_export.csv; columns Title, Publication Year, Abstract, Type, DOI, OpenAlex ID)
+"""Screen an OpenAlex export (openalex_export.csv; columns Title, Publication Year, Abstract, Type, DOI, OpenAlex ID)
 with the same filters as the main corpus and identify journal articles not already in the corpus -> oa_unique_articles.pkl"""
 import pandas as pd, re, json, sys
-SRC=sys.argv[1] if len(sys.argv)>1 else 'raw/openalex_export.csv'
+SRC=sys.argv[1] if len(sys.argv)>1 else 'openalex_export.csv'
 sc=pd.read_csv(SRC,low_memory=False).rename(columns={'Title':'title','Publication Year':'year','Abstract':'abstract'})
 n0=len(sc); sc=sc.dropna(subset=['title','abstract']); sc['abstract']=sc['abstract'].astype(str); sc['title']=sc['title'].astype(str)
 sc=sc[sc['abstract'].str.len()>100]; n_abs=len(sc)
@@ -9,9 +9,9 @@ sc['year']=pd.to_numeric(sc['year'],errors='coerce'); sc=sc.dropna(subset=['year
 def eng(s):
     L=sum(c.isalpha() for c in s); A=sum(c.isalpha() and ord(c)<128 for c in s); return L>50 and A/max(L,1)>0.9
 sc=sc[sc['abstract'].map(eng)]; n_eng=len(sc)
-bball=[l.rstrip('\n') for l in open('data/basketball_terms.txt') if l.strip()]
+bball=[l.rstrip('\n') for l in open('basketball_terms.txt') if l.strip()]
 txt=(' '+sc['title'].str.lower()+' '+sc['abstract'].str.lower()); sc=sc[txt.apply(lambda t: any(x in t for x in bball))]; n_b=len(sc)
-PSY=[l.strip() for l in open('data/construct_patterns.txt') if l.strip() and not l.startswith('#')]
+PSY=[l.strip() for l in open('construct_patterns.txt') if l.strip() and not l.startswith('#')]
 pat=re.compile('|'.join(PSY)); txt=(sc['title'].str.lower()+' '+sc['abstract'].str.lower()); sc=sc[txt.apply(lambda t: bool(pat.search(t)))]; n_p=len(sc)
 norm=lambda s: re.sub(r'\s+',' ',re.sub(r'[^a-z0-9 ]',' ',s.lower())).strip()
 sc['tnorm']=sc['title'].map(norm); sc=sc.drop_duplicates('tnorm'); n_d=len(sc)
